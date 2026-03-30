@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "app": "EDUSMARTPRO",
+  "menus": [
+    {"id":"dashboard","title":"Trang chủ","icon":"home","route":"/","roles":["teacher","leader","vice_principal","principal","admin"]},
+    {"id":"chi_bo","title":"Chi bộ","icon":"shield","route":"/chi-bo","roles":["principal"]},
+    {"id":"school_admin","title":"Quản trị trường","icon":"building","route":"/quan-tri-truong","roles":["principal","admin"]},
+    {"id":"office_admin","title":"Hành chính Văn phòng","icon":"file-text","route":"/hanh-chinh","roles":["vice_principal","principal","admin"]},
+    {"id":"doan_the","title":"Đoàn thể","icon":"users","route":"/doan-the","roles":["vice_principal","principal"]},
+    {"id":"to_truong_cm","title":"Tổ trưởng chuyên môn","icon":"layers","route":"/to-truong-chuyen-mon","roles":["leader"]},
+    {"id":"homeroom","title":"Hồ sơ chủ nhiệm","icon":"id-card","route":"/ho-so-chu-nhiem","roles":["teacher"]},
+    {"id":"smart_gradebook","title":"Sổ điểm thông minh","icon":"bar-chart","route":"/so-diem-thong-minh","roles":["teacher"]},
+    {"id":"ai_lesson","title":"Soạn bài AI","icon":"cpu","route":"/soan-bai-ai","roles":["teacher"]},
+    {"id":"school_plan","title":"Kế hoạch chuyên môn","icon":"calendar","route":"/ke-hoach-chuyen-mon","roles":["leader","vice_principal","principal"]},
+    {"id":"rubrics","title":"Rubrics","icon":"check-square","route":"/rubrics","roles":["teacher","leader"]},
+    {"id":"video","title":"Video bài giảng","icon":"video","route":"/video-bai-giang","roles":["teacher"]},
+    {"id":"game_center","title":"Game Center","icon":"gamepad","route":"/game-center","roles":["teacher"]},
+    {"id":"open_resources","title":"Học liệu mở","icon":"book","route":"/hoc-lieu-mo","roles":["teacher","leader"]},
+    {"id":"lucky_wheel","title":"Vòng quay may mắn","icon":"rotate-ccw","route":"/vong-quay-may-man","roles":["teacher"]},
+    {"id":"zalo_internal","title":"Zalo nội bộ","icon":"message-circle","route":"/zalo-noi-bo","roles":["teacher","leader","vice_principal","principal"]},
+    {"id":"about","title":"Giới thiệu ứng dụng","icon":"info","route":"/gioi-thieu","roles":["teacher","leader","vice_principal","principal","admin"]},
+    {"id":"logout","title":"Thoát ứng dụng","icon":"log-out","route":"/thoat","roles":["teacher","leader","vice_principal","principal","admin"]}
+  ]
+}

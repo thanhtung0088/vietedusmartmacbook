@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+/* Thêm vào file src/index.css */
+@keyframes float {
+  0% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-5px) rotate(2deg); }
+  100% { transform: translateY(0px) rotate(0deg); }
+}
+
+@keyframes wink {
+  0%, 100% { transform: scaleY(1); }
+  50% { transform: scaleY(0.1); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.group-hover\:animate-wink:hover {
+  animation: wink 0.2s ease-in-out;
+}
